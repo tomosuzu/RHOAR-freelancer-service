@@ -15,7 +15,7 @@
 
 I created these endpoints.
 I chose simple design for entity.
-List of skills should be List, but I didn't so.
+I think list of skills should be List, but I didn't so.
 Because I think this is too much and too predict.
 If I create the freelancer add method, I use comma delimiter.
 
