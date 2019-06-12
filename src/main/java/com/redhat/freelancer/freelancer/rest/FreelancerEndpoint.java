@@ -10,6 +10,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.util.List;
 
 @Path("/freelancers")
 @Component
@@ -23,5 +24,12 @@ public class FreelancerEndpoint {
     @Produces(MediaType.APPLICATION_JSON)
     public Freelancer getFreelancer(@PathParam("freelancerId") String freelancerId) {
         return freelancerService.getFreelancer(freelancerId);
+    }
+
+    @GET
+    @Path("/")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Freelancer> getFreelancers() {
+        return freelancerService.getFreelancers();
     }
 }
