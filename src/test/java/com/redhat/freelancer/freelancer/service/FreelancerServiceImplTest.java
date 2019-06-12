@@ -15,7 +15,6 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
 
 public class FreelancerServiceImplTest {
