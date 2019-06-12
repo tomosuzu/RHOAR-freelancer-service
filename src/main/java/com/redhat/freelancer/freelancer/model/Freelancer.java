@@ -45,4 +45,20 @@ public class Freelancer implements Serializable {
     public String getSkillList() {
         return skillList;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+
+    public void setSkillList(String skillList) {
+        this.skillList = skillList;
+    }
 }
